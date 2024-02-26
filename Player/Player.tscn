@@ -1,0 +1,354 @@
+[gd_scene load_steps=57 format=3 uid="uid://h66udugvwhhc"]
+
+[ext_resource type="Script" path="res://Player/Player.cs" id="1_vpywj"]
+[ext_resource type="Texture2D" uid="uid://bhse5kfjyau1p" path="res://godot_tilesets/BlueWizard Animations/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00000.png" id="2_mjuaw"]
+[ext_resource type="Texture2D" uid="uid://bvxeem1qesh0i" path="res://godot_tilesets/BlueWizard Animations/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00001.png" id="3_ytfed"]
+[ext_resource type="Texture2D" uid="uid://5wl62jwgs282" path="res://godot_tilesets/BlueWizard Animations/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00002.png" id="4_5i6hn"]
+[ext_resource type="Texture2D" uid="uid://ch7yjoikh8p1g" path="res://godot_tilesets/BlueWizard Animations/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00003.png" id="5_00gja"]
+[ext_resource type="Texture2D" uid="uid://d0mcmijkrp2cu" path="res://godot_tilesets/BlueWizard Animations/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00004.png" id="6_5jboy"]
+[ext_resource type="Texture2D" uid="uid://mckgvnkhp2je" path="res://godot_tilesets/BlueWizard Animations/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00005.png" id="7_ik2vf"]
+[ext_resource type="Texture2D" uid="uid://bl55wnh4en442" path="res://godot_tilesets/BlueWizard Animations/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00006.png" id="8_6sl7c"]
+[ext_resource type="Texture2D" uid="uid://cy8dmw34u8dfc" path="res://godot_tilesets/BlueWizard Animations/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00007.png" id="9_ubwps"]
+[ext_resource type="Texture2D" uid="uid://xg11i1fjlijg" path="res://godot_tilesets/BlueWizard Animations/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00008.png" id="10_jsxti"]
+[ext_resource type="Texture2D" uid="uid://o8pk1kks1juv" path="res://godot_tilesets/BlueWizard Animations/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00009.png" id="11_u4w3l"]
+[ext_resource type="Texture2D" uid="uid://cmd7rvuls0mfe" path="res://godot_tilesets/BlueWizard Animations/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00010.png" id="12_be035"]
+[ext_resource type="Texture2D" uid="uid://dequcdxokijtl" path="res://godot_tilesets/BlueWizard Animations/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00011.png" id="13_24sav"]
+[ext_resource type="Texture2D" uid="uid://dp2nhhaub6kxp" path="res://godot_tilesets/BlueWizard Animations/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00012.png" id="14_h78vn"]
+[ext_resource type="Texture2D" uid="uid://cpg6eqq7e3wuf" path="res://godot_tilesets/BlueWizard Animations/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00013.png" id="15_508cs"]
+[ext_resource type="Texture2D" uid="uid://cg6rmtmn3k042" path="res://godot_tilesets/BlueWizard Animations/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00014.png" id="16_w5wgx"]
+[ext_resource type="Texture2D" uid="uid://c0843jhd5joku" path="res://godot_tilesets/BlueWizard Animations/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00015.png" id="17_00y06"]
+[ext_resource type="Texture2D" uid="uid://dlahkrbe7wa6i" path="res://godot_tilesets/BlueWizard Animations/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00016.png" id="18_liftl"]
+[ext_resource type="Texture2D" uid="uid://b8h3qh02kcxfh" path="res://godot_tilesets/BlueWizard Animations/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00017.png" id="19_afgpo"]
+[ext_resource type="Texture2D" uid="uid://6xepvvmqtc1" path="res://godot_tilesets/BlueWizard Animations/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00018.png" id="20_jnsv5"]
+[ext_resource type="Texture2D" uid="uid://df3a56dagr68g" path="res://godot_tilesets/BlueWizard Animations/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00019.png" id="21_wa872"]
+[ext_resource type="Texture2D" uid="uid://cgalx1jxdo48k" path="res://godot_tilesets/BlueWizard Animations/BlueWizard/2BlueWizardJump/CharaWizardJump_00000.png" id="22_glprr"]
+[ext_resource type="Texture2D" uid="uid://dsej14k6o74ap" path="res://godot_tilesets/BlueWizard Animations/BlueWizard/2BlueWizardJump/CharaWizardJump_00001.png" id="23_ycs12"]
+[ext_resource type="Texture2D" uid="uid://ddfcxfqsgl6xp" path="res://godot_tilesets/BlueWizard Animations/BlueWizard/2BlueWizardJump/CharaWizardJump_00002.png" id="24_qmf88"]
+[ext_resource type="Texture2D" uid="uid://b4a4rs2mphv3" path="res://godot_tilesets/BlueWizard Animations/BlueWizard/2BlueWizardJump/CharaWizardJump_00003.png" id="25_44hr7"]
+[ext_resource type="Texture2D" uid="uid://ccopwtbtvhy81" path="res://godot_tilesets/BlueWizard Animations/BlueWizard/2BlueWizardJump/CharaWizardJump_00004.png" id="26_2hx5q"]
+[ext_resource type="Texture2D" uid="uid://cekg5v5f176jg" path="res://godot_tilesets/BlueWizard Animations/BlueWizard/2BlueWizardJump/CharaWizardJump_00005.png" id="27_037vw"]
+[ext_resource type="Texture2D" uid="uid://d20rx4k6i46vi" path="res://godot_tilesets/BlueWizard Animations/BlueWizard/2BlueWizardJump/CharaWizardJump_00006.png" id="28_s364b"]
+[ext_resource type="Texture2D" uid="uid://wvy2o8prqtsi" path="res://godot_tilesets/BlueWizard Animations/BlueWizard/2BlueWizardJump/CharaWizardJump_00007.png" id="29_8lqnm"]
+[ext_resource type="Texture2D" uid="uid://dvc7r16x1gbnb" path="res://godot_tilesets/BlueWizard Animations/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00000.png" id="30_2n0i6"]
+[ext_resource type="Texture2D" uid="uid://c0bwo2hjbs3k3" path="res://godot_tilesets/BlueWizard Animations/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00001.png" id="31_4rihj"]
+[ext_resource type="Texture2D" uid="uid://celnv1a4ebm6r" path="res://godot_tilesets/BlueWizard Animations/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00002.png" id="32_vqd0q"]
+[ext_resource type="Texture2D" uid="uid://jw65n0e7olqb" path="res://godot_tilesets/BlueWizard Animations/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00003.png" id="33_v04ql"]
+[ext_resource type="Texture2D" uid="uid://bgxrnc7dbxl46" path="res://godot_tilesets/BlueWizard Animations/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00004.png" id="34_jk61c"]
+[ext_resource type="Texture2D" uid="uid://hejqwf3ei7kr" path="res://godot_tilesets/BlueWizard Animations/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00005.png" id="35_lv622"]
+[ext_resource type="Texture2D" uid="uid://bs5fstast08mx" path="res://godot_tilesets/BlueWizard Animations/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00006.png" id="36_e6bxk"]
+[ext_resource type="Texture2D" uid="uid://k4gbqjxjqalk" path="res://godot_tilesets/BlueWizard Animations/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00007.png" id="37_0sutw"]
+[ext_resource type="Texture2D" uid="uid://dl0h1vcwwdgpn" path="res://godot_tilesets/BlueWizard Animations/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00008.png" id="38_87j46"]
+[ext_resource type="Texture2D" uid="uid://d3gb73bp505tl" path="res://godot_tilesets/BlueWizard Animations/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00009.png" id="39_kix1w"]
+[ext_resource type="Texture2D" uid="uid://d2kw55qdxgsix" path="res://godot_tilesets/BlueWizard Animations/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00010.png" id="40_t84dp"]
+[ext_resource type="Texture2D" uid="uid://dwgiabxloskla" path="res://godot_tilesets/BlueWizard Animations/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00011.png" id="41_pnvei"]
+[ext_resource type="Texture2D" uid="uid://ip1ncdl1sbnq" path="res://godot_tilesets/BlueWizard Animations/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00012.png" id="42_k7526"]
+[ext_resource type="Texture2D" uid="uid://b3nwdyryfx253" path="res://godot_tilesets/BlueWizard Animations/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00013.png" id="43_8xrcs"]
+[ext_resource type="Texture2D" uid="uid://chrkkfs4p4sv6" path="res://godot_tilesets/BlueWizard Animations/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00014.png" id="44_o2hls"]
+[ext_resource type="Texture2D" uid="uid://c3l7t8dhlu37n" path="res://godot_tilesets/BlueWizard Animations/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00015.png" id="45_rbbnj"]
+[ext_resource type="Texture2D" uid="uid://duxfx5s2y1y6q" path="res://godot_tilesets/BlueWizard Animations/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00016.png" id="46_7siii"]
+[ext_resource type="Texture2D" uid="uid://dfnrb3ph0d6xt" path="res://godot_tilesets/BlueWizard Animations/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00017.png" id="47_brj4v"]
+[ext_resource type="Texture2D" uid="uid://b852sab65sk15" path="res://godot_tilesets/BlueWizard Animations/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00018.png" id="48_1ifxg"]
+[ext_resource type="Texture2D" uid="uid://c3r3j7k1w7cn8" path="res://godot_tilesets/BlueWizard Animations/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00019.png" id="49_ysdbi"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_hlppo"]
+radius = 46.8055
+height = 145.8
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_7s5xp"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_mjuaw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_ytfed")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_5i6hn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_00gja")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_5jboy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_ik2vf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_6sl7c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_ubwps")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_jsxti")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_u4w3l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_be035")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_24sav")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_h78vn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_508cs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_w5wgx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_00y06")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_liftl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_afgpo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_jnsv5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_wa872")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("22_glprr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_ycs12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_qmf88")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_44hr7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_2hx5q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_037vw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_s364b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_8lqnm")
+}],
+"loop": true,
+"name": &"Jump",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("30_2n0i6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_4rihj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_vqd0q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_v04ql")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_jk61c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_lv622")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_e6bxk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_0sutw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_87j46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_kix1w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_t84dp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_pnvei")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_k7526")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_8xrcs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_o2hls")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_rbbnj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_7siii")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_brj4v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_1ifxg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_ysdbi")
+}],
+"loop": true,
+"name": &"Walk",
+"speed": 5.0
+}]
+
+[sub_resource type="Animation" id="Animation_1xu4w"]
+resource_name = "Idle"
+length = 1.9
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite2D:animation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [&"Idle"]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("AnimatedSprite2D:frame")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1, 1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 1.7, 1.8, 1.9),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+}
+
+[sub_resource type="Animation" id="Animation_wtkyl"]
+resource_name = "Jump"
+length = 0.7
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite2D:animation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [&"Jump"]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("AnimatedSprite2D:frame")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 2, 3, 4, 5, 6, 7]
+}
+
+[sub_resource type="Animation" id="Animation_afv0h"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [1]
+}
+
+[sub_resource type="Animation" id="Animation_3ytjp"]
+resource_name = "Walk"
+length = 2.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite2D:animation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [&"Walk"]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("AnimatedSprite2D:frame")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1, 1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 1.7, 1.8, 1.9),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_2hnje"]
+_data = {
+"Idle": SubResource("Animation_1xu4w"),
+"Jump": SubResource("Animation_wtkyl"),
+"RESET": SubResource("Animation_afv0h"),
+"Walk": SubResource("Animation_3ytjp")
+}
+
+[node name="Player" type="CharacterBody2D"]
+script = ExtResource("1_vpywj")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0.999999, -79)
+rotation = -0.0335962
+shape = SubResource("CapsuleShape2D_hlppo")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(13, -95)
+scale = Vector2(0.683594, 0.720703)
+sprite_frames = SubResource("SpriteFrames_7s5xp")
+animation = &"Jump"
+frame = 1
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(-14, -225)
+zoom = Vector2(0.5, 0.5)
+limit_left = 0
+limit_top = 0
+limit_bottom = 648
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_2hnje")
+}
+autoplay = "Idle"

@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://jmmajtpne2c7"]
+
+[ext_resource type="Script" path="res://BG.cs" id="1_rq6iq"]
+[ext_resource type="Texture2D" uid="uid://dnomtgr2wsgsb" path="res://godot_tilesets/free-city-backgrounds-pixel-art/city 3/6.png" id="2_a617e"]
+
+[node name="BG" type="ParallaxBackground"]
+script = ExtResource("1_rq6iq")
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="."]
+
+[node name="6" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(1149, 652.75)
+scale = Vector2(3.98785, 4.04475)
+texture = ExtResource("2_a617e")
